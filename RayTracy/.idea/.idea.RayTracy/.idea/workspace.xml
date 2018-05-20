@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15a99864-66db-4a17-814f-f0a7e8b61015" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Script/CreatPNG.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/CreatPNG.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/MultipleSphereScene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/MultipleSphereScene.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Texture/MultipleSphere.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Texture/MultipleSphere.jpg" afterDir="false" />
-    </list>
+    <list default="true" id="15a99864-66db-4a17-814f-f0a7e8b61015" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,8 +102,8 @@
       <file leaf-file-name="MultipleSphereScene.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Script/MultipleSphereScene.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="467">
+              <caret line="35" column="68" lean-forward="true" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
               <folding>
                 <marker date="1526837619906" expanded="false" signature="6:44" ph="..." />
                 <marker date="1526837619906" expanded="true" signature="78:1861" ph="{...}" />
@@ -241,12 +237,12 @@
       <option name="presentableId" value="Default" />
       <updated>1526808506216</updated>
       <workItem from="1526808511638" duration="14433000" />
-      <workItem from="1526836042955" duration="1587000" />
+      <workItem from="1526836042955" duration="1889000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16020000" />
+    <option name="totallyTimeSpent" value="16322000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -529,8 +525,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Script/MultipleSphereScene.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="467">
+          <caret line="35" column="68" lean-forward="true" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
           <folding>
             <marker date="1526837619906" expanded="false" signature="6:44" ph="..." />
             <marker date="1526837619906" expanded="true" signature="78:1861" ph="{...}" />
