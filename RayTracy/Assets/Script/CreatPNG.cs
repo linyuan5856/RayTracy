@@ -6,7 +6,7 @@ public class CreatPNG : MonoBehaviour
 {
     public const int WIDTH = 800;
     public const int HEIGHT = 600;
-    public const string PATH="Assets/Texture/Target.jpg";
+    public const string PATH="Assets/Texture/Sphere.jpg";
 
 
     private static Color[] MakeTexture()
@@ -50,7 +50,9 @@ public class CreatPNG : MonoBehaviour
     [MenuItem("RayTrace/CreatTexture")]
     public static void CreatFile()
     {
-        Creat_FileInternal(MakeTexture());
+        //Color[] colors = MakeTexture();
+        Color[] colors = Sphere.MakeColors();
+        Creat_FileInternal(colors);
     }
     
 }
