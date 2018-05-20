@@ -7,6 +7,9 @@
         <e p="CreatPNG.cs" t="Include" />
         <e p="HitableSphere.cs" t="Include" />
         <e p="HitClass.cs" t="Include" />
+        <e p="LightModel" t="Include">
+          <e p="Diffuse.cs" t="Include" />
+        </e>
         <e p="MultipleSphereScene.cs" t="Include" />
         <e p="Ray.cs" t="Include" />
         <e p="Sphere.cs" t="Include" />
