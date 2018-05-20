@@ -6,7 +6,7 @@ public class CreatPNG : MonoBehaviour
 {
     public const int WIDTH = 800;
     public const int HEIGHT = 600;
-    public const string PATH="Assets/Texture/Sphere.jpg";
+    public const string PATH="Assets/Texture/SphereNormal.jpg";
 
 
     private static Color[] MakeTexture()
@@ -51,7 +51,8 @@ public class CreatPNG : MonoBehaviour
     public static void CreatFile()
     {
         //Color[] colors = MakeTexture();
-        Color[] colors = Sphere.MakeColors();
+        //Color[] colors = Sphere.MakeColors();
+        Color[] colors = SphereNormal.MakeColors();
         Creat_FileInternal(colors);
     }
     
