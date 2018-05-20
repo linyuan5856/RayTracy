@@ -7,6 +7,7 @@ namespace RayTrace
         public Vector3 origin;
         public Vector3 direction;
         public Vector3 normalDirection;
+      
 
         public Ray(Vector3 o, Vector3 d)
         {

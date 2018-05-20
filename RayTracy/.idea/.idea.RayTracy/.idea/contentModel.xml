@@ -5,6 +5,8 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets\Script" t="Include">
         <e p="CreatPNG.cs" t="Include" />
+        <e p="HitClass.cs" t="Include" />
+        <e p="MultipleSphereScene.cs" t="Include" />
         <e p="Ray.cs" t="Include" />
         <e p="Sphere.cs" t="Include" />
         <e p="SphereNormal.cs" t="Include" />

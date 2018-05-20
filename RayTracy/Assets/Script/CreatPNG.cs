@@ -6,7 +6,7 @@ public class CreatPNG : MonoBehaviour
 {
     public const int WIDTH = 800;
     public const int HEIGHT = 600;
-    public const string PATH="Assets/Texture/SphereNormal.jpg";
+    public const string PATH="Assets/Texture/MultipleSphere.jpg";
 
 
     private static Color[] MakeTexture()
@@ -52,7 +52,8 @@ public class CreatPNG : MonoBehaviour
     {
         //Color[] colors = MakeTexture();
         //Color[] colors = Sphere.MakeColors();
-        Color[] colors = SphereNormal.MakeColors();
+        //Color[] colors = SphereNormal.MakeColors();
+        Color[] colors = MultipleSphereScene.MakeColors();
         Creat_FileInternal(colors);
     }
     
