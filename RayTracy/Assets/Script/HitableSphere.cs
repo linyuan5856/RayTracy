@@ -1,16 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Material = RayTrace.Material;
 
 public class HitableSphere:Hitable {
 
 	public Vector3 center;
 	public float radius;
+	public Material material;
 
-	public HitableSphere(Vector3 cen, float rad)
+	public HitableSphere(Vector3 cen, float rad,Material m)
 	{
 		center = cen;
 		radius = rad;
+		this.material= m;
 	}
 
 	public override bool Hit(RayTrace.Ray ray, float t_min, float t_max, ref HitRecord rec)
@@ -29,6 +32,7 @@ public class HitableSphere:Hitable {
 				rec.t = temp;
 				rec.p = ray.GetPoint(rec.t);
 				rec.normal = (rec.p - center).normalized;
+				rec.material = material;
 				return true;
 			}
 
@@ -38,6 +42,7 @@ public class HitableSphere:Hitable {
 				rec.t = temp;
 				rec.p = ray.GetPoint(rec.t);
 				rec.normal = (rec.p - center).normalized;
+				rec.material = material;
 				return true;
 			}
 		}

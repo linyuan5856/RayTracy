@@ -4,7 +4,9 @@
     <e p="C:\Project\Unity\RayTracy\RayTracy" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets\Script" t="Include">
+        <e p="Camera.cs" t="Include" />
         <e p="CreatPNG.cs" t="Include" />
+        <e p="DiffuseAndReflectScene.cs" t="Include" />
         <e p="HitableSphere.cs" t="Include" />
         <e p="HitClass.cs" t="Include" />
         <e p="LightModel" t="Include">

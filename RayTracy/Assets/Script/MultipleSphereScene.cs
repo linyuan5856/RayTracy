@@ -33,8 +33,8 @@ public class MultipleSphereScene
         Vector3 leftDownCorner = new Vector3(-2, -1, -1);
 
         HitableList hitableList = new HitableList();
-        hitableList.AddHitable(new HitableSphere(new Vector3(0, 0, -1), 0.5f));
-        hitableList.AddHitable(new HitableSphere(new Vector3(0, -100.5f, -1), 100f));
+        hitableList.AddHitable(new HitableSphere(new Vector3(0, 0, -1), 0.5f,null));
+        hitableList.AddHitable(new HitableSphere(new Vector3(0, -100.5f, -1), 100f,null));
         for (int i = HEIGHT - 1; i >= 0; i--)
         {
             for (int j = 0; j < WIDTH; j++)

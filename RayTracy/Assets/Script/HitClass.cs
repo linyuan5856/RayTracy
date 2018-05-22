@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using Material = RayTrace.Material;
 using Ray = RayTrace.Ray;
 
 public class HitClass
@@ -11,6 +12,7 @@ public class HitRecord
     public float t;
     public Vector3 p;
     public Vector3 normal;
+    public Material material;
 }
 
 

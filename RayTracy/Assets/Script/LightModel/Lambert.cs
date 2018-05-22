@@ -4,13 +4,13 @@ namespace RayTrace
 {
     public class Lambert:Material
     {
-        private Vector3 mAlbedo;
-        public Lambert(Vector3 albedo)
+        private Color mAlbedo;
+        public Lambert(Color albedo)
         {
             this.mAlbedo = albedo;
         }
 
-        public override bool Scatter(Ray rayIn, HitRecord hitRecord, ref Vector3 albedo, ref Ray scatterRay)
+        public override bool Scatter(Ray rayIn, HitRecord hitRecord, ref Color albedo, ref Ray scatterRay)
         {
             Vector3 target = hitRecord.p + hitRecord.normal + GetRandomUnitInSphere();
             scatterRay=new Ray(hitRecord.p,target-hitRecord.p);

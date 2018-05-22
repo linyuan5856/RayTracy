@@ -4,10 +4,10 @@ namespace RayTrace
 {
     public class Metal:Material
     {
-        Vector3 mAlbedo;
-        public Metal(Color a) { albedo = a; }
+        Color mAlbedo;
+        public Metal(Color a) { mAlbedo = a; }
         
-        public override bool Scatter(Ray rayIn, HitRecord hitRecord, ref Vector3 albedo, ref Ray scatterRay)
+        public override bool Scatter(Ray rayIn, HitRecord hitRecord, ref Color albedo, ref Ray scatterRay)
         {
             Vector3 reflected = Reflect(rayIn.normalDirection, hitRecord.normal);
             scatterRay= new Ray(hitRecord.p, reflected);
