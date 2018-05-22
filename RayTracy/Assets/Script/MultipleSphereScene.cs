@@ -3,7 +3,7 @@ using Ray = RayTrace.Ray;
 
 public class MultipleSphereScene
 {
-    public const int SAMPLETIMES = 10;
+    public const int SAMPLETIMES = 50;
 
     private static Color GetColorFromScene(Ray ray, HitableList hitableList)
     {
@@ -40,8 +40,8 @@ public class MultipleSphereScene
             for (int j = 0; j < WIDTH; j++)
             {
                 Ray ray = new Ray(origin,
-                    leftDownCorner + horizontal * ((j + Random.Range(0, 1)) / (float) WIDTH) +
-                    vertical * ((i + Random.Range(0, 1)) / (float) HEIGHT));
+                    leftDownCorner + horizontal * ((j + Random.Range(0, 1f)) / (float) WIDTH) +
+                    vertical * ((i + Random.Range(0, 1f)) / (float) HEIGHT));
                 Color newColor=Color.black;
                 for (int k = 0; k < SAMPLETIMES; k++)
                 {

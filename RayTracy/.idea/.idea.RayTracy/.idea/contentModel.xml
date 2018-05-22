@@ -9,6 +9,9 @@
         <e p="HitClass.cs" t="Include" />
         <e p="LightModel" t="Include">
           <e p="Diffuse.cs" t="Include" />
+          <e p="Lambert.cs" t="Include" />
+          <e p="Material.cs" t="Include" />
+          <e p="Metal.cs" t="Include" />
         </e>
         <e p="MultipleSphereScene.cs" t="Include" />
         <e p="Ray.cs" t="Include" />

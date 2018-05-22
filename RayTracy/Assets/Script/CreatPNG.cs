@@ -6,7 +6,7 @@ public class CreatPNG : MonoBehaviour
 {
     public const int WIDTH = 800;
     public const int HEIGHT = 600;
-    public const string PATH="Assets/Texture/Diffuse_NOGama.jpg";
+    public const string PATH="Assets/Texture/MultipleSphere_MonteCarlo.jpg";
 
 
     private static Color[] MakeTexture()
